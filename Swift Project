@@ -1,0 +1,30 @@
+// We're going to find out bella's age.
+var dogAge = 11
+var earlyYears = 0
+var laterYears = 0
+var humanYears = 0
+
+// this is bella's age after her first two years of life'
+earlyYears = 21
+
+// Each following year counts as 4 human years
+laterYears = (dogAge - 2) * 4
+
+humanYears = earlyYears + laterYears
+print("My name is Bella! Woof woof, and I am \(humanYears) years old in human years.")
+
+// We're going to find out the age of my other dogs with a new variable.
+var groupAges: Double = 3.5
+var puppyYears: Double
+var adultYears: Double
+var peopleYears: Double
+
+//Casper, Luna, and Coco's age after their first two years of birth.'.
+puppyYears = 21.0
+
+adultYears = (groupAges - 2.0) * 4.0
+
+peopleYears = puppyYears + adultYears
+print("Our names are Coco, Casper, and Luna and we're all sibilings! Bark, Bark, Bark, and we are \(peopleYears) years old in Human years!")
+
+
